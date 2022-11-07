@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkchat=self.webpackChunkchat||[]).push([[805],{9805:function(t,n,e){e.r(n);var a=e(1087),o=e(1284),c=e(3329);n.default=function(){return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)("img",{src:o,alt:"page not found",width:"100%"}),(0,c.jsx)(a.rU,{to:"/",children:"Page not found go to home page"})]})}},1284:function(t,n,e){t.exports=e.p+"static/media/not-found.1f805512de94aa4faf12.jpg"}}]);
+//# sourceMappingURL=805.e0245c6d.chunk.js.map
