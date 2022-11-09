@@ -1,13 +1,13 @@
 import BottomAppBar from 'components/BottomAppBar';
 import TopAppBar from 'components/TopAppBar';
-import { Box } from "@mui/material"
+import PostsList from 'components/PostsList';
+import { Box } from '@mui/material';
 
 const HomePage = () => {
-
-
   return (
-    <Box sx={{ display: 'flex',flexDirection:"column", minHeight:"100vh" }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <TopAppBar />
+      <PostsList />
       <BottomAppBar />
     </Box>
   );

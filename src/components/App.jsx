@@ -3,7 +3,7 @@ import AppRoutes from './AppRoutes';
 
 export const App = () => {
   return (
-    <Container component="main" maxWidth="xs">
+    <Container component="main" maxWidth="xs" sx={{my:12}}>
       <AppRoutes />
     </Container>
   );

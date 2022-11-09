@@ -9,11 +9,13 @@ import {
   REGISTER,
 } from 'redux-persist';
 import { authReducer } from './auth/authSlice';
+import{postsApi}from "./posts/postsApi"
 
 
 export const store = configureStore({
   reducer: {
     auth: authReducer,
+    [postsApi.reducerPath]: postsApi.reducer,
   },
 
   middleware: getDefaultMiddleware =>
@@ -21,7 +23,7 @@ export const store = configureStore({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    }),
+    }).concat(postsApi.middleware),
 });
 
 export const persistor = persistStore(store);

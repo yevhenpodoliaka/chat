@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { signInUser } from "../redux/auth/authOptions"
+import { signInUser } from '../redux/auth/authOptions';
 import {
   Avatar,
   Button,
@@ -12,15 +12,11 @@ import {
 } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
-
-
 export default function LoginForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const dispatch =useDispatch()
-
-
+  const dispatch = useDispatch();
 
   const handleChange = ({ target: { name, value } }) => {
     switch (name) {
@@ -39,7 +35,7 @@ export default function LoginForm() {
       alert('all form fields must be filled out');
       return;
     }
- dispatch(signInUser({email, password}));
+    dispatch(signInUser({ email, password }));
     setEmail('');
     setPassword('');
   };
