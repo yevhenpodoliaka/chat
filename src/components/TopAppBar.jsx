@@ -6,21 +6,15 @@ import {
   Typography,
   Button,
 } from '@mui/material';
-import avatar from "../images/avatar.png"
 
-import { useDispatch } from "react-redux"
-import {signOutUser}from "../redux/auth/authOptions"
-
-
-
-
+import { useDispatch, useSelector } from 'react-redux';
+import { getUserName } from 'redux/auth/authSelector';
+import { signOutUser } from '../redux/auth/authOptions';
 
 function TopAppBar() {
+  const dispatch = useDispatch();
+  const UserName = useSelector(getUserName);
 
-  
-const dispatch= useDispatch()
-
- 
   return (
     <AppBar
       sx={{
@@ -32,8 +26,8 @@ const dispatch= useDispatch()
       <Toolbar sx={{ width: 320, mx: 'auto' }}>
         <Typography>Chat</Typography>
         <Box display="flex" ml="auto" gap="8px">
-          <Avatar alt="{userName}" src={avatar} />
-          <Button variant="contained" onClick={()=>dispatch(signOutUser())}>
+          <Avatar aria-label="user">{UserName[0]}</Avatar>
+          <Button variant="contained" onClick={() => dispatch(signOutUser())}>
             logOut
           </Button>
         </Box>
