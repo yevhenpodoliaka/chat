@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/chat/static/css/main.4d841811.css",
-    "main.js": "/chat/static/js/main.19ab9e25.js",
-    "static/js/534.313b81bf.chunk.js": "/chat/static/js/534.313b81bf.chunk.js",
+    "main.js": "/chat/static/js/main.6c8ded39.js",
+    "static/js/522.145a6215.chunk.js": "/chat/static/js/522.145a6215.chunk.js",
     "static/js/805.e0245c6d.chunk.js": "/chat/static/js/805.e0245c6d.chunk.js",
-    "static/js/931.bfd83342.chunk.js": "/chat/static/js/931.bfd83342.chunk.js",
-    "static/js/975.52df9a7f.chunk.js": "/chat/static/js/975.52df9a7f.chunk.js",
+    "static/js/931.d5a09127.chunk.js": "/chat/static/js/931.d5a09127.chunk.js",
+    "static/js/975.f84d5725.chunk.js": "/chat/static/js/975.f84d5725.chunk.js",
     "static/js/248.4f19c9e7.chunk.js": "/chat/static/js/248.4f19c9e7.chunk.js",
     "static/media/not-found.jpg": "/chat/static/media/not-found.1f805512de94aa4faf12.jpg",
     "static/media/roboto-all-500-normal.woff": "/chat/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
@@ -34,15 +34,15 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/chat/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/chat/index.html",
     "main.4d841811.css.map": "/chat/static/css/main.4d841811.css.map",
-    "main.19ab9e25.js.map": "/chat/static/js/main.19ab9e25.js.map",
-    "534.313b81bf.chunk.js.map": "/chat/static/js/534.313b81bf.chunk.js.map",
+    "main.6c8ded39.js.map": "/chat/static/js/main.6c8ded39.js.map",
+    "522.145a6215.chunk.js.map": "/chat/static/js/522.145a6215.chunk.js.map",
     "805.e0245c6d.chunk.js.map": "/chat/static/js/805.e0245c6d.chunk.js.map",
-    "931.bfd83342.chunk.js.map": "/chat/static/js/931.bfd83342.chunk.js.map",
-    "975.52df9a7f.chunk.js.map": "/chat/static/js/975.52df9a7f.chunk.js.map",
+    "931.d5a09127.chunk.js.map": "/chat/static/js/931.d5a09127.chunk.js.map",
+    "975.f84d5725.chunk.js.map": "/chat/static/js/975.f84d5725.chunk.js.map",
     "248.4f19c9e7.chunk.js.map": "/chat/static/js/248.4f19c9e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d841811.css",
-    "static/js/main.19ab9e25.js"
+    "static/js/main.6c8ded39.js"
   ]
 }
